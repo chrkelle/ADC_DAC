@@ -1,0 +1,6 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.sim/sim_1/impl/timing/xsim/ADC_DAC_tb_time_impl.v,1529095303,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sim_1/new/ADC_DAC_tb.v,,ADC;DAC;clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz;debounce;glbl;main;sync_reg,,,../../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sim_1/new/ADC_DAC_tb.v,1529094523,verilog,,,,ADC_DAC_tb,,,../../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,

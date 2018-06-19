@@ -1,0 +1,23 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 159b6d7f36934db4b263d94afbce1dad --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ADC_DAC_tb_behav xil_defaultlib.ADC_DAC_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUFDS(IBUF_LOW_PWR="FALSE",IOST...
+Compiling module unisims_ver.OBUFDS(IOSTANDARD="LVDS_25")
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=6,CLKIN1...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.debounce
+Compiling module xil_defaultlib.sync_reg
+Compiling module xil_defaultlib.ADC
+Compiling module xil_defaultlib.DAC
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.ADC_DAC_tb
+Compiling module xil_defaultlib.glbl

@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.sim/sim_1/impl/timing/xsim/ADC_DAC_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC
+INFO: [VRFC 10-311] analyzing module DAC
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-311] analyzing module sync_reg
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sim_1/new/ADC_DAC_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC_DAC_tb

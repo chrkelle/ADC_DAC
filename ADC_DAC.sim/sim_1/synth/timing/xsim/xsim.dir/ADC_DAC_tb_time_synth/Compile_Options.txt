@@ -1,0 +1,1 @@
+-wto "159b6d7f36934db4b263d94afbce1dad" --incr --debug "typical" --relax --mt "2" --maxdelay -L "xil_defaultlib" -L "simprims_ver" -L "secureip" --snapshot "ADC_DAC_tb_time_synth" -transport_int_delays -pulse_r "0" -pulse_int_r "0" -pulse_e "0" -pulse_int_e "0" "xil_defaultlib.ADC_DAC_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

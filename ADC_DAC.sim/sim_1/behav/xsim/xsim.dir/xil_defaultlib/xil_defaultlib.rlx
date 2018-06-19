@@ -1,0 +1,13 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sim_1/new/ADC_DAC_tb.v,1529094523,verilog,,,,ADC_DAC_tb,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1529091419,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/ADC.v,,clk_wiz_0,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1529091419,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/ADC.v,1529258268,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/DAC.v,,ADC,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/DAC.v,1529092866,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/debounce.v,,DAC,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/debounce.v,1529094265,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/main.v,,debounce,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/main.v,1529095146,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/sync_reg.v,,main,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/sync_reg.v,1529091023,verilog,,C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sim_1/new/ADC_DAC_tb.v,,sync_reg,,,../../../../ADC_DAC.srcs/sources_1/ip/clk_wiz_0,,,,,
