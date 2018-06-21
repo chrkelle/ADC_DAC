@@ -18,6 +18,7 @@ Compiling module xil_defaultlib.debounce
 Compiling module xil_defaultlib.sync_reg
 Compiling module xil_defaultlib.ADC
 Compiling module xil_defaultlib.DAC
-Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.DAC_range_test
 Compiling module xil_defaultlib.ADC_DAC_tb
 Compiling module xil_defaultlib.glbl
+Built simulation snapshot ADC_DAC_tb_behav

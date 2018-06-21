@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Mon Jun 18 08:14:53 2018
+| Date         : Thu Jun 21 10:28:51 2018
 | Host         : DESKTOP-EPHBFNF running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
 | Design       : main
@@ -24,7 +24,7 @@ Table of Contents
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
 | Number of unique control sets                            |     6 |
-| Unused register locations in slices containing registers |    27 |
+| Unused register locations in slices containing registers |    39 |
 +----------------------------------------------------------+-------+
 
 
@@ -35,7 +35,9 @@ Table of Contents
 | Fanout | Control Sets |
 +--------+--------------+
 |      1 |            1 |
-|    16+ |            5 |
+|     10 |            1 |
+|     12 |            1 |
+|    16+ |            3 |
 +--------+--------------+
 
 
@@ -46,9 +48,9 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |              17 |            6 |
-| No           | No                    | Yes                    |              23 |           13 |
-| No           | Yes                   | No                     |              36 |           12 |
-| Yes          | No                    | No                     |              16 |            8 |
+| No           | No                    | Yes                    |              17 |            8 |
+| No           | Yes                   | No                     |              36 |           14 |
+| Yes          | No                    | No                     |              10 |            5 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               1 |            1 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -57,15 +59,15 @@ Table of Contents
 4. Detailed Control Set Information
 -----------------------------------
 
-+------------------------+---------------+----------------------------+------------------+----------------+
-|      Clock Signal      | Enable Signal |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
-+------------------------+---------------+----------------------------+------------------+----------------+
-|  clk_wiz/inst/clk_out1 | adc/n_cnv     | debounce/reset             |                1 |              1 |
-|  clk_wiz/inst/clk_out1 | adc/sync/E[0] |                            |                8 |             16 |
-|  adc/adc_done          |               | debounce/reset             |               10 |             16 |
-|  clk_wiz/inst/clk_out1 |               |                            |                6 |             17 |
-|  clk_wiz/inst/clk_out1 |               | debounce/reset             |                8 |             18 |
-|  clk_wiz/inst/clk_out1 |               | debounce/PB_cnt[0]_i_1_n_0 |                7 |             25 |
-+------------------------+---------------+----------------------------+------------------+----------------+
++------------------------+-----------------------+---------------------------+------------------+----------------+
+|      Clock Signal      |     Enable Signal     |      Set/Reset Signal     | Slice Load Count | Bel Load Count |
++------------------------+-----------------------+---------------------------+------------------+----------------+
+|  clk_wiz/inst/clk_out1 | adc/n_cnv             | debunce/reset             |                1 |              1 |
+|  adc/adc_done          |                       | debunce/reset             |                5 |             10 |
+|  clk_wiz/inst/clk_out1 | adc/sync/fdata_reg[8] |                           |                6 |             12 |
+|  clk_wiz/inst/clk_out1 |                       |                           |                6 |             17 |
+|  clk_wiz/inst/clk_out1 |                       | debunce/reset             |               10 |             18 |
+|  clk_wiz/inst/clk_out1 |                       | debunce/PB_cnt[0]_i_1_n_0 |                7 |             25 |
++------------------------+-----------------------+---------------------------+------------------+----------------+
 
 

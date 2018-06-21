@@ -33,7 +33,7 @@ module main(sys_clk_p, sys_clk_n, reset_in, hi_muxsel, start, dco_p, dco_n, da_p
     output wire clk, hi_muxsel, done;
     //adc outputs
     output wire aclk_p, aclk_n, cnv_p, cnv_n, tp, tl;
-    output reg [15:0] data;
+    output reg [9:0] data;
     //dac outputs
     output wire dacclk;
    
@@ -70,7 +70,7 @@ module main(sys_clk_p, sys_clk_n, reset_in, hi_muxsel, start, dco_p, dco_n, da_p
     //module instantiation
     clk_wiz_0 clk_wiz(.clk_out1(clk), .clk_in1(sys_clk));
     
-    debounce  debounce(.clk(clk), .PB(~reset_in), .PB_state(reset));
+    debounce  debunce(.clk(clk), .PB(~reset_in), .PB_state(reset));
     
     ADC adc(.clk(clk), .reset(reset), .dco(dco), .da(da),. db(db), .start(start_adc),
          .aclk(aclk), .cnv(cnv_p), .tp(tp), .tl(tl), .data(ADC_out), .adc_done(adc_done));
@@ -82,7 +82,7 @@ module main(sys_clk_p, sys_clk_n, reset_in, hi_muxsel, start, dco_p, dco_n, da_p
             data <= 0;
         end
         else begin
-            data <= ADC_out [15:0];
+            data <= ADC_out [15:6];
         end
     end
 endmodule

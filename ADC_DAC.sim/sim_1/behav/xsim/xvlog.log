@@ -6,10 +6,10 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC
 INFO: [VRFC 10-311] analyzing module ADC
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/DAC.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module DAC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/DAC_range_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DAC_range_test
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/debounce.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module debounce
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/main.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module main
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sources_1/new/sync_reg.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module sync_reg
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/sim_1/new/ADC_DAC_tb.v" into library xil_defaultlib

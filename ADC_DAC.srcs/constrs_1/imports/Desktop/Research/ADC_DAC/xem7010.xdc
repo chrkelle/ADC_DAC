@@ -76,26 +76,6 @@ set_property IOSTANDARD LVDS_25 [get_ports {sys_clk_n}]
 set_property PACKAGE_PIN K4 [get_ports {sys_clk_p}]
 set_property PACKAGE_PIN J4 [get_ports {sys_clk_n}]
 
-# MC1-25 
-set_property PACKAGE_PIN N3 [get_ports {data[0]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[0]}]
-
-# MC1-26 
-set_property PACKAGE_PIN M2 [get_ports {data[1]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[1]}]
-
-# MC1-27 
-set_property PACKAGE_PIN M1 [get_ports {data[2]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[2]}]
-
-# MC1-28 
-set_property PACKAGE_PIN M6 [get_ports {data[3]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[3]}]
-
-# MC1-29 
-set_property PACKAGE_PIN L1 [get_ports {data[4]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[4]}]
-
 # MC1-30 
 set_property PACKAGE_PIN M5 [get_ports {reset_in}]
 set_property IOSTANDARD LVCMOS25 [get_ports {reset_in}]
@@ -108,7 +88,6 @@ set_property IOSTANDARD LVCMOS25 [get_ports {done}]
 set_property PACKAGE_PIN L5 [get_ports {start}]
 set_property IOSTANDARD LVCMOS25 [get_ports {start}]
 
-
 # MC1-63 
 set_property PACKAGE_PIN E13 [get_ports {data[5]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {data[5]}]
@@ -116,6 +95,10 @@ set_property IOSTANDARD LVCMOS33 [get_ports {data[5]}]
 # MC2-23 
 set_property PACKAGE_PIN N22 [get_ports {cnv_p}]
 set_property IOSTANDARD LVCMOS25 [get_ports {cnv_p}]
+
+# MC1-25 
+set_property PACKAGE_PIN N3 [get_ports {cnv_n}]
+set_property IOSTANDARD LVCMOS25 [get_ports {cnv_n}]
 
 # MC2-27 
 set_property PACKAGE_PIN M21 [get_ports {tl}]
@@ -162,46 +145,45 @@ set_property PACKAGE_PIN G13 [get_ports {db_n}]
 set_property IOSTANDARD LVDS_25 [get_ports {db_n}]
 
 # MC2-65
-set_property PACKAGE_PIN G22 [get_ports {data[15]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[15]}]
-
-# MC2-67 
-set_property PACKAGE_PIN E22 [get_ports {data[14]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[14]}]
-
-# MC2-68 
-set_property PACKAGE_PIN E21 [get_ports {data[8]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[8]}]
-
-# MC2-69 
-set_property PACKAGE_PIN D22 [get_ports {data[13]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[13]}]
-
-# MC2-70 
-set_property PACKAGE_PIN D21 [get_ports {data[9]}]
+set_property PACKAGE_PIN G22 [get_ports {data[9]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {data[9]}]
 
+# MC2-67 
+set_property PACKAGE_PIN E22 [get_ports {data[8]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[8]}]
+
+# MC2-68 
+set_property PACKAGE_PIN E21 [get_ports {data[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[2]}]
+
+# MC2-69 
+set_property PACKAGE_PIN D22 [get_ports {data[7]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[7]}]
+
+# MC2-70 
+set_property PACKAGE_PIN D21 [get_ports {data[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[3]}]
+
 # MC2-71 
-set_property PACKAGE_PIN D20 [get_ports {data[12]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[12]}]
+set_property PACKAGE_PIN D20 [get_ports {data[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[6]}]
 
 # MC2-72 
 set_property PACKAGE_PIN C22 [get_ports {dacclk}]
 set_property IOSTANDARD LVCMOS33 [get_ports {dacclk}]
 
 # MC2-73 
-set_property PACKAGE_PIN C20 [get_ports {data[11]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[11]}]
+set_property PACKAGE_PIN C20 [get_ports {data[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[5]}]
 
 # MC2-74 
-set_property PACKAGE_PIN B22 [get_ports {data[6]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[6]}]
+set_property PACKAGE_PIN B22 [get_ports {data[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[0]}]
 
 # MC2-75 
-set_property PACKAGE_PIN B21 [get_ports {data[10]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[10]}]
+set_property PACKAGE_PIN B21 [get_ports {data[4]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[4]}]
 
 # MC2-76 
-set_property PACKAGE_PIN A21 [get_ports {data[7]}]
-set_property IOSTANDARD LVCMOS33 [get_ports {data[7]}]
-
+set_property PACKAGE_PIN A21 [get_ports {data[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {data[1]}]

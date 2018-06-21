@@ -16,7 +16,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7a50tfgg484-3
 
 set_param project.singleFileAddWarning.threshold 0
@@ -50,8 +49,8 @@ set_property used_in_implementation false [get_files -all c:/Users/Chris/Desktop
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Chris/Desktop/Research/ADC_DAC/xem7010.xdc
-set_property used_in_implementation false [get_files C:/Users/Chris/Desktop/Research/ADC_DAC/xem7010.xdc]
+read_xdc C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/constrs_1/imports/Desktop/Research/ADC_DAC/xem7010.xdc
+set_property used_in_implementation false [get_files C:/Users/Chris/Desktop/Research/ADC_DAC/ADC_DAC.srcs/constrs_1/imports/Desktop/Research/ADC_DAC/xem7010.xdc]
 
 set_param ips.enableIPCacheLiteLoad 0
 close [open __synthesis_is_running__ w]

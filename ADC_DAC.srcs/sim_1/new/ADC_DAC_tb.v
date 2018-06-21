@@ -31,19 +31,20 @@ module ADC_DAC_tb();
     //system outputs
     wire clk, hi_muxsel, done;
     //adc outputs
-    wire aclk_p, aclk_n, cnv, tp, tl;
-    wire [15:0] data;
+    wire aclk_p, aclk_n, cnv_p, cnv_n, tp, tl;
+    wire [9:0] data;
+    wire [15:0] ADC_data;
     //dac outputs
     wire dacclk;
 
     //system wires
     integer i = 0;
     
-    main inst0(.sys_clk_p(sys_clk_p), .sys_clk_n(sys_clk_n), .reset_in(reset_in),
+    DAC_range_test inst0(.sys_clk_p(sys_clk_p), .sys_clk_n(sys_clk_n), .reset_in(reset_in),
                .hi_muxsel(hi_muxsel), .start(start), .dco_p(dco_p), .dco_n(dco_n),
                .da_p(da_p), .da_n(da_n), .db_p(db_p), .db_n(db_n), .aclk_p(aclk_p),
-               .aclk_n(aclk_n), .cnv(cnv), .tp(tp), .tl(tl), .data(data), .dacclk(dacclk),
-               .done(done), .clk(clk));
+               .aclk_n(aclk_n), .cnv_p(cnv_p), .cnv_n(cnv_n), .tp(tp), .tl(tl), .data(data), .dacclk(dacclk),
+               .done(done), .clk(clk), .ADC_data(ADC_data));
     
     always begin
         #2.5
@@ -85,7 +86,6 @@ module ADC_DAC_tb();
         @(negedge clk);
         @(negedge clk);
         
-        start = 0;
 
         da_p = 1;   //1
         da_n = 0;
